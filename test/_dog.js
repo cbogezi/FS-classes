@@ -20,7 +20,7 @@ describe('Dogs', () => {
     });
 
     it('should have have preset properties for sound and legs', () => {
-      expect(dog.sound).to.equal("woof");
+      expect(dog.sound).to.equal("tweet");
       expect(dog.legs).to.equal(4);
     });
 
@@ -35,7 +35,7 @@ describe('Dogs', () => {
       dog.getOlder();
       dog.getOlder();
       dog.getOlder();
-      expect(dog.age).to.equal(21);
+      expect(dog.age).to.equal(14);
     });
   });
 
@@ -47,7 +47,7 @@ describe('Dogs', () => {
     it('should increase the sticks count each time it is called', () => {
       dog.fetch();
       dog.fetch();
-      expect(dog.sticks).to.equal(2);
+      expect(dog.name).to.equal(2);
     });
   });
 

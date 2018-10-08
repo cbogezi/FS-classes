@@ -1,9 +1,12 @@
 /* ----------------------
 
 Note: BEFORE tackling each question below,
-write a test for it in the test file.
+read the tests in the test file. There are
+THREE bugs added that you will have to find and
+fix for the tests to work properly.
 
-1. Update the sound property to "woof".
+1. Update the sound property to "woof" and the legs
+   property to 4.
 2. Add a new property called "sticks" and set it to 0.
 3. Update the getOlder method so that it increases
    the age by dog years (7) instead of by one.
@@ -12,19 +15,12 @@ write a test for it in the test file.
    of sticks fetched.
 
 ---------------------- */
+
 const Animal = require('./animal');
 
 class Dog extends Animal {
   constructor(name) {
     super(name);
-    this.sound = "woof";
-    this.legs = 4;
-    this.sticks = 0;
-  }
-
-  fetch() {
-    this.sticks++;
-    return this.sticks;
   }
 }
 

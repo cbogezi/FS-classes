@@ -25,5 +25,12 @@ describe('Animals', () => {
     it('should exist on the Animal prototype', () => {
       expect(Animal.prototype.speak).to.exist;
     });
+
+    it('should return the sound when called', () => {
+      const sampleSound = "tweet!";
+      animal.sound = sampleSound;
+      expect(animal.speak()).to.equal(sampleSound);
+    });
+
   });
 });

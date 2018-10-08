@@ -1,19 +1,23 @@
+/* ----------------------
+
+Note: BEFORE tackling each question below,
+read the tests in the test file.
+
+1. Add properties called "legs" and "sound".
+2. Add a method called "getOlder" so that it increases
+   the age by 1 whenever it is called and then 
+   returns the new age.
+3. Add a new method called speak that returns the
+   sound property whenever it is called.
+
+---------------------- */
+
 class Animal {
-  constructor(name, sound, legs, age) {
-    this.name = name || null;
-    this.sound = sound || null;
-    this.legs = legs || 4;
-    this.age = age || 1;
+  constructor(name) {
+    this.name = name;
+    this.age = 1;
   }
 
-  speak() {
-    console.log(this.sound);
-  }
-
-  getOlder() {
-    this.age++;
-    return this.age;
-  }
 }
 
 module.exports = Animal;

@@ -1,10 +1,6 @@
 const { expect } = require('chai');
+const { isClass } = require('./utilities');
 const Animal = require('../src/animal');
-
-function isClass(func) {
-  return typeof func === 'function'
-    && /^class\s/.test(Function.prototype.toString.call(func));
-}
 
 let animal = null;
 
@@ -18,14 +14,15 @@ describe('Animals', () => {
       expect(isClass(Animal)).to.be.true;
     });
 
-    it('should have properties named name and sound', () => {
+    it('should have properties named name, sound, and legs', () => {
       expect(animal.hasOwnProperty('name')).to.equal(true);
       expect(animal.hasOwnProperty('sound')).to.equal(true);
+      expect(animal.hasOwnProperty('legs')).to.equal(true);
     });
   });
 
   describe('The speak method', () => {
-    it('should exist on the Tree prototype', () => {
+    it('should exist on the Animal prototype', () => {
       expect(Animal.prototype.speak).to.exist;
     });
   });

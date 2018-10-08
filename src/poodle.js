@@ -16,6 +16,6 @@ write related tests in the test file.
 
 const Dog = require('./dog');
 
-// your code here
+class Poodle {}
 
 module.exports = Poodle;

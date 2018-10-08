@@ -14,11 +14,17 @@ Run `yarn test` to run tests.
 
 ## Basic Requirements
 
-### 1. Complete all of the questions in the `index.js` file.
-  - [ ] Open the `index.js` file.
-    - After saving changes, run `yarn test`.
+### 1. Complete all of the questions in the `src` folder.
+  - [ ] Open the `src` folder.
+    - Finish creating the classes in this order:
+      - `animal.js`
+      - `dog.js`
+      - `poodle.js`
+      - `cat.js`
 
-### 2. Add questions to the test folder when required.
+### 2. Run tests
+  - [ ] Pass all tests associated with each class.
+    - Run `yarn test` in your terminal to run tests. 
   - [ ] Add tests where required.
     - Learn more about using [Chai](https://www.chaijs.com/api/bdd/) for testing here.
 
@@ -31,3 +37,6 @@ Run `yarn test` to run tests.
 
 ## Resources
   - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+
+## Notes
+_This is a student project that was created at [Codely](http://codely.tech), a full stack development bootcamp in Barcelona._

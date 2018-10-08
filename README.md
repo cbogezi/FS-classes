@@ -36,7 +36,7 @@ Run `yarn test` to run tests.
     - `git push` pushes changes
 
 ## Resources
-  - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+  - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
 ## Notes
 _This is a student project that was created at [Codely](http://codely.tech), a full stack development bootcamp in Barcelona._

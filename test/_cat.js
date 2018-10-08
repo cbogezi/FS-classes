@@ -1,17 +1,17 @@
 const { expect } = require('chai');
 const { isClass } = require('./utilities');
-const Poodle = require('../src/poodle');
+const Cat = require('../src/cat');
 
-let poodle = null;
+let cat = null;
 
-describe('Poodles', () => {
+describe('Cat', () => {
   beforeEach(() => {
-    poodle = new Poodle();
+    cat = new Cat();
   });
 
-  describe('The Poodle class', () => {
+  describe('The Cat class', () => {
     it('should be a class', () => {
-      expect(isClass(Poodle)).to.be.true;
+      expect(isClass(Cat)).to.be.true;
     });
 
     it('should ???', () => {

@@ -14,9 +14,10 @@ describe('Dogs', () => {
       expect(isClass(Dog)).to.be.true;
     });
 
-    it('should have properties named name and sticks', () => {
+    it('should have properties for name, sticks, and breed', () => {
       expect(dog.hasOwnProperty('name')).to.equal(true);
       expect(dog.hasOwnProperty('sticks')).to.equal(true);
+      expect(dog.hasOwnProperty('breed')).to.equal(true);
     });
 
     it('should have have preset properties for sound and legs', () => {

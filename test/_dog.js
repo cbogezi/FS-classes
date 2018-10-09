@@ -4,7 +4,7 @@ const Dog = require('../src/dog');
 
 let dog = null;
 
-describe('Dogs', () => {
+xdescribe('Dogs', () => {
   beforeEach(() => {
     dog = new Dog();
   });

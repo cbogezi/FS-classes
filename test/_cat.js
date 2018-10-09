@@ -4,7 +4,7 @@ const Cat = require('../src/cat');
 
 let cat = null;
 
-describe('Cat', () => {
+xdescribe('Cat', () => {
   beforeEach(() => {
     cat = new Cat();
   });

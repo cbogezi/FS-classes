@@ -4,7 +4,7 @@ const Poodle = require('../src/poodle');
 
 let poodle = null;
 
-describe('Poodles', () => {
+xdescribe('Poodles', () => {
   beforeEach(() => {
     poodle = new Poodle();
   });

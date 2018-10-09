@@ -14,19 +14,19 @@ Run `yarn test` to run tests.
 
 ## Basic Requirements
 
-### 1. Complete all of the questions in the `src` folder.
-  - [ ] Open the `src` folder.
-    - Finish creating the classes in this order:
-      - `animal.js`
-      - `dog.js`
-      - `poodle.js`
-      - `cat.js`
+### 1. Get comfortable with the testing framework
+  - [] Spend approximately 20-30 minutes reading the [Chai documentation](https://www.chaijs.com/api/bdd/) - focus on the `expect/should` page.
+  - [] Read all of the test in `_animals.js` and make sure you understand them.
+  - [] Get all of the animal tests to pass.
+  - [] Check in with your instructor before moving on!
 
-### 2. Run tests
-  - [ ] Pass all tests associated with each class.
-    - Run `yarn test` in your terminal to run tests. 
-  - [ ] Add tests where required.
-    - Learn more about using [Chai](https://www.chaijs.com/api/bdd/) for testing here.
+### 2. Complete the rest of the classes in the `src` folder, passing and adding tests as you go.
+  - [ ] Complete the Dogs class in `dog.js`.
+    - There are 3 bugs in the test file for this class that you will have to fix.
+  - [ ] Complete the Poodles class in `poodle.js`.
+    - You will have to write tests for this class.
+  - [ ] Complete the Cats class in `cat.js`.
+    - You will have to write test for this class.
 
 ### 3. Commit early, commit often!
   - [ ] After each major change, make a commit to Github. Here's a [cheat sheet](https://www.git-tower.com/blog/git-cheat-sheet) for commands and tips for writing good commit messages.

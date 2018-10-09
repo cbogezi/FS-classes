@@ -1,8 +1,7 @@
 {
   "name": "classes",
   "version": "1.0.0",
-  "main": "index.js",
-  "author": "Krista Moroder",
+  "author": "Krista Moroder for Codely",
   "license": "MIT",
   "scripts": {
     "test": "mocha"

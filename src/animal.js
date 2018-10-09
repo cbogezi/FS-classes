@@ -15,8 +15,6 @@ read the tests in the test file.
 class Animal {
   constructor(name) {
     this.name = name;
-    this.sound = null;
-    this.legs = null;
     this.age = 1;
   }
 

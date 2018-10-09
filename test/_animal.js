@@ -1,5 +1,5 @@
 const { expect } = require('chai');
-const { isClass, hello } = require('./utilities');
+const { isClass } = require('./utilities');
 const Animal = require('../src/animal');
 
 let animal = null;

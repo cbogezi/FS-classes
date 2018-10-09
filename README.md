@@ -15,10 +15,10 @@ Run `yarn test` to run tests.
 ## Basic Requirements
 
 ### 1. Get comfortable with the testing framework
-  - [] Spend approximately 20-30 minutes reading the [Chai documentation](https://www.chaijs.com/api/bdd/) - focus on the `expect/should` page.
-  - [] Read all of the test in `_animals.js` and make sure you understand them.
-  - [] Get all of the animal tests to pass.
-  - [] Check in with your instructor before moving on!
+  - [ ] Spend approximately 20-30 minutes reading the [Chai documentation](https://www.chaijs.com/api/bdd/) - focus on the `expect/should` page.
+  - [ ] Read all of the test in `_animals.js` and make sure you understand them.
+  - [ ] Get all of the animal tests to pass.
+  - [ ] Check in with your instructor before moving on!
 
 ### 2. Complete the rest of the classes in the `src` folder, passing and adding tests as you go.
   - [ ] Complete the Dogs class in `dog.js`.

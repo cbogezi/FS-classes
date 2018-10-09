@@ -21,12 +21,18 @@ Run `yarn test` to run tests.
   - [ ] Check in with your instructor before moving on!
 
 ### 2. Complete the rest of the classes in the `src` folder, passing and adding tests as you go.
-  - [ ] Complete the Dogs class in `dog.js`.
+  - [ ] Complete the Dog class in `dog.js`.
     - There are 3 bugs in the test file for this class that you will have to fix.
-  - [ ] Complete the Poodles class in `poodle.js`.
+  - [ ] Complete the Poodle class in `poodle.js`.
     - You will have to write tests for this class.
-  - [ ] Complete the Cats class in `cat.js`.
+  - [ ] Complete the Cat class in `cat.js`.
     - You will have to write test for this class.
+  - [ ] Create a totally new class called "Bird". 
+    - Create a new file for the class.
+      - Don't forget to export it!
+    - Create a new file for tests.
+      - Don't forget to import the Bird class into this file.
+      - Write quality tests.
 
 ### 3. Commit early, commit often!
   - [ ] After each major change, make a commit to Github. Here's a [cheat sheet](https://www.git-tower.com/blog/git-cheat-sheet) for commands and tips for writing good commit messages.

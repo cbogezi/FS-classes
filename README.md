@@ -31,12 +31,13 @@ Run `yarn test` to run tests.
     - You will have to write test for this class.
 
 ### 4. Add a new class.
-  - [ ] Create a totally new class called "Bird". 
+  - [ ] Create a totally new class called "Bird".
     - Create a new file for the class.
       - Don't forget to export it!
     - Create a new file for tests.
       - Don't forget to import the Bird class into this file.
       - Write quality tests.
+    - Add at least two properties and two methods into the Bird class.
 
 ## Resources
   - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)

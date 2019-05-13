@@ -43,4 +43,4 @@ Run `yarn test` to run tests.
   - [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
 ## Notes
-_This is a student project that was created at [Codely](http://codely.tech), a full stack development bootcamp in Barcelona._
+_This is a student project that was created at [CodeOp](http://CodeOp.tech), a full stack development bootcamp in Barcelona._

@@ -15,8 +15,24 @@ write related tests in the test file.
 
 ---------------------- */
 
-const Animal = require('./animal');
+const Animal = require("./animal");
 
-class Cat {}
+class Cat {
+  constructor(name, sound) {
+    this.sound = "meow";
+    this.vaccinated = true;
+    this.age = 1;
+  }
+  getOlder() {
+    this.age += 4;
+  }
+  //additional method of my choice is feed
+  feed(foodType) {
+    this.foodType = true;
+  }
+  speak() {
+    return this.sound;
+  }
+}
 
 module.exports = Cat;
